@@ -1,0 +1,116 @@
+/*   Navbar   */
+
+.navbar-brand {
+  background-color: #fff;
+  -webkit-mask:  url("../img/kod-logo.svg") no-repeat 50% 50%;
+  mask: url("../img/kod-logo.svg") no-repeat 50% 50%;
+  width: 2.5em;
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+
+#logo:hover {
+  background-color: #aaa;
+  transition: 300ms ease-in-out;
+}
+
+.navbar {
+  margin: 0;
+  background-color: #000;
+  text-align: center;
+}
+
+.navbar .collapse li a,
+.navbar .collapse li a:visited {
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 4em;
+}
+
+.navbar .collapse li a:hover,
+.navbar .collapse li a:focus {
+  transition: 300ms ease-in-out;
+  color: #aaa;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-toggle {
+  background: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+
+.navbar-toggle .icon-bar {
+  height: 1px;
+}
+
+/*   Anim   */
+
+#nav-anim span {
+  display: block;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-anim span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-anim span:nth-child(2) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-anim span:nth-child(3) {
+  top: 36px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-anim.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+}
+
+#nav-anim.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-anim.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+}
