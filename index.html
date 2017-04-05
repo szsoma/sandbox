@@ -10,7 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/anim.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,37 +20,10 @@
     <![endif]-->
   </head>
   <body>
-<!--   Header Zone
 
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <a id="logo" class="navbar-brand" href="index.html"></a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <div id="nav-anim">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </div>
-            </button>
-        </div>
+<!--   Welcome Zone   -->
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="about-me.html">Home</a></li>
-              <li><a href="services.html">Test</a></li>
-              <li><a href="portfolio.html">Shoprenter</a></li>
-              <li><a href="contact.html">Optimonk</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-  End of Header Zone   -->
-
-<!--   End of Header Zone   -->
-
-<div class="container section">
+<div class="container section welcome">
   <div class="row">
     <h1>Welcome!</h1>
     <p>This is my new CSS animation jouney with awesome SVG graphics.</p>
@@ -60,19 +33,47 @@
 
 <!--   End of Header Zone   -->
 
+<!--   Hello Zone   -->
 
+<div class="container section">
+  <div class="row">
+    <div class="col-xs-12 col-lg-6 trigger">
+      <div class="hello">
+        <h2>It's awesome!</h2>
+      </div>
+    </div>
+    <div class="col-xs-12 col-lg-6 describe text-left">
+      <h3>Okay! So this is simple!</h3>
+      <p>We have a .trigger div and a .hello div in it.</p>
+      <p>The event is a mouse click.</p>
+    </div>
+  </div>
+</div>
 
+<!--   End of Hello Zone   -->
 
-<!--   Test Zone   -->
+<!--   Keyframe Zone   -->
 
+<div class="container section">
+  <div class="row">
+    <div class="logo">
+      <div style="text-align:center; padding:100px 0;">
+        <object>
+          <embed src="img/inn.svg" width="15%" height="15%">
+        </object>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--   End of Hello Zone   -->
 
-<!--   End of Test Zone   -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/hello.js"></script>
   </body>
 </html>

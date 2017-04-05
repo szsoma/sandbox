@@ -1,0 +1,15 @@
+/*   Hello   */
+.trigger {
+  width: 250px;
+  height: 100px;
+  border: 10px solid #81a7c1;
+}
+
+.hello{
+  transition: transform 300ms cubic-bezier(0.42, 0, 0.02, 0.97);
+  pointer-events: none;
+}
+
+.trigger.clicked .hello {
+  transform: translate(100px, 100px) rotate(20deg);
+}
