@@ -1,5 +1,6 @@
 /*   Hello   */
 .trigger {
+  box-sizing: padding-box;
   width: 250px;
   height: 100px;
   border: 10px solid #81a7c1;
