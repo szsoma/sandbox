@@ -14,7 +14,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: auto;
   overflow-x: hidden;
-  background-color: #f8f8f8;
+  background-color: #f2f4f7;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -35,8 +35,8 @@ p {
 }
 
 .section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .describe {
@@ -72,8 +72,7 @@ h3 {
   }
 
   .describe {
-    margin: 0 5rem;
+    margin: 0 0rem;
   }
-
 
 }

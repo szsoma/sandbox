@@ -1,6 +1,5 @@
 /*   Hello   */
 .trigger {
-  box-sizing: padding-box;
   width: 250px;
   height: 100px;
   border: 10px solid #81a7c1;
@@ -13,4 +12,37 @@
 
 .trigger.clicked .hello {
   transform: translate(100px, 100px) rotate(20deg);
+}
+
+/*   Pulse   */
+.button a {
+  padding: 10px;
+  color: #fff;
+}
+
+.button{
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-decoration: none;
+  width: 240px;
+  height: 60px;
+}
+
+.pulse-anim {
+  animation-name: myframes;
+  animation-duration: 5000ms;
+  transform-origin:70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes myframes {
+  0% { transform: scale(1); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
 }
