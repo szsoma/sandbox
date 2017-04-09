@@ -3,15 +3,16 @@
 
 	<defs>
 		<style type="text/css">
-				.st0{fill:#f8f8f8;stroke:#008996;stroke-width:7;stroke-miterlimit:5;}
+				.st0{fill:#f2f4f7;stroke:#008996;stroke-width:7;stroke-miterlimit:5;}
 
 				.st0{
 					stroke-dasharray: 800;
 					stroke-dashoffset: 0;
-					-webkit-animation: dash 2s linear forwards;
-					-o-animation: dash 5s linear forwards;
-					-moz-animation: dash 2s linear forwards;
-					animation: dash 2s linear forwards;
+					-webkit-animation: dash 5s linear forwards;
+					-o-animation: dash 4s linear forwards;
+					-moz-animation: dash 4s linear forwards;
+					animation: dash 4s linear forwards;
+					animation-iteration-count: 3;
 				}
 
 				#logo {

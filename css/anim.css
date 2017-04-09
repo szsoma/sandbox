@@ -10,8 +10,8 @@
   pointer-events: none;
 }
 
-.trigger.clicked .hello {
-  transform: translate(100px, 100px) rotate(20deg);
+  .clicked .hello {
+  transform: translate(50px,50px) rotate(20deg);
 }
 
 /*   Pulse   */
@@ -45,4 +45,41 @@
 	70% { transform: scale(1.05); }
 	80% { transform: scale(1); }
 	100% { transform: scale(1); }
+}
+
+/*   Box animation   */
+.box-anim {
+  display: inline-block;
+  background: tomato;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  animation-name: box-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
+}
+
+@keyframes box-animation {
+  0% {
+    width: 150px;
+  }
+  50% {
+    width: 250px;
+  }
+  100% {
+    width: 150px;
+    background: blue;
+    }
+}
+
+/*   Cat animation   */
+.eye-color {
+  fill: #175282;
 }
