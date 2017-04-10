@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,900');
+
+/*   Styles   */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  color: #252525;
+}
+
+.banner {
+  background: url("../img/banner.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 620px;
+}
+
+.left {
+  position: relative;
+  left: 150px;
+  align-self: center;
+  height: 520px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+  animation: h1-anim;
+  animation-duration: 1.2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  transform-origin:-200px -100px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 34px;
+  animation: h1-anim;
+  animation-duration: 1.4s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  transform-origin:-200px -100px;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 25px;
+  animation: h1-anim;
+  animation-duration: 1.6s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  transform-origin:-200px -100px;
+}
+
+a {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 25px 60px;
+  color: #fff;
+  background-color: #e23432;
+  text-decoration: none;
+}
+
+span {
+  color: #e23432;
+}
+
+.text {
+  margin-bottom: 60px;
+}
+
+/*   Animations   */
+
+@keyframes h1-anim {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
