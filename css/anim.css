@@ -80,6 +80,9 @@
 }
 
 /*   Cat animation   */
-.eye-color {
+.blue-eyes .eye-color {
+  fill: #175282;
+}
+.blue-eyes #eye-color-2 {
   fill: #175282;
 }
