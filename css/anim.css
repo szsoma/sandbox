@@ -184,3 +184,21 @@
 .svg-container {
   perspective: 2000px;
 }
+
+/*   Progress Bar   */
+
+.progress {
+  height: 3px;
+  margin-top: 7rem;
+}
+
+.progress-bar-success {
+  background-color: #93ca0e;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+
+/*   Progress bar 2   */
