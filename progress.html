@@ -28,23 +28,37 @@
 	<div class="row">
     <h1>Bootstrap Progress Bar</h1>
       <div class="progress anim-bar">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              <span class="done"></span>
-          </div>
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="step well">Bejelentkezes</div>
+      <div class="step well">Adatok megadása</div>
+      <div class="step well">Szállítási mód</div>
+      <div class="step well">Fizetési mód</div>
+      <div class="step well">Rendelés összesítése</div>
+      <div class="col-lg-6">
+        <button class="action back btn btn-primary">Back</button>
+      </div>
+      <div class="col-lg-6">
+        <button class="action next btn btn-primary">Next</button>
+      </div>
+      <div class="col-lg-6">
+        <button class="action submit btn btn-success">Submit</button>
       </div>
 	</div>
 </div>
 
 <!--   End of Simple Progress Zone   -->
 
+<!--   Multistep Progress Zone   -->
+
 <div class="container section">
   <div class="row">
     <ul class="progress-indicator">
-      <li id="1st" class="completed"><span class="bubble"></li>
-      <li id="" class="others"><span class="bubble"></li>
-      <li id="" class="others"><span class="bubble"></li>
-      <li id="" class="others"><span class="bubble"></li>
-      <li id="" class="others"><span class="bubble"></li>
+      <li id="bejelentkezes" class="completed"><span class="bubble"></li>
+      <li id="adatok" class="others"><span class="bubble"></li>
+      <li id="szallitas" class="others"><span class="bubble"></li>
+      <li id="fizetes" class="others"><span class="bubble"></li>
+      <li id="osszesites" class="others"><span class="bubble"></li>
     </ul>
   </div>
 
@@ -57,6 +71,9 @@
     </div>
   </div>
 </div>
+
+<!--   End of Multistep Progress Zone   -->
+
 
 <!--   Buttons Zone
 

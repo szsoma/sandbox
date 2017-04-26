@@ -89,6 +89,11 @@
   height: 2.5rem;
   margin: 1rem;
 }
+.btn-success {
+  width: 8rem;
+  height: 2.5rem;
+  margin: 1rem;
+}
 
 .blue-eyes .eye-color {
   fill: #175282;
@@ -188,17 +193,14 @@
 /*   Progress Bar   */
 
 .progress {
-  height: 3px;
+  height: 5px;
   margin-top: 7rem;
-}
-
-.progress-bar-success {
-  background-color: #93ca0e;
 }
 
 .progress-bar {
   text-align: left;
-  transition-duration: 3s;
+  transition-duration: 2s;
+  background-color: #93ca0e;
 }
 
 /*   Progress bar 2   */

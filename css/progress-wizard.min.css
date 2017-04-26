@@ -62,7 +62,26 @@
   display:block;
   margin:-15px auto .5em;
   border-bottom:1px solid #888;
+  z-index: 0;
 }
+
+/*   Bubble BEJELENTKEZES    */
+
+@keyframes flip {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+    transform: rotateY(180deg);
+  }
+}
+
+/*   Bubble ADATOK    */
+/*   Bubble SZALLITAS    */
+/*   Bubble FIZETES    */
+/*   Bubble OSSZESITES    */
+
 
 .progress-indicator>li .bubble:after,
 .progress-indicator>li .bubble:before{
@@ -73,6 +92,7 @@
   height:3px;
   content:'';
   background-color:#bbb;
+  z-index: 2;
 }
 
 .progress-indicator>li.completed .bubble,
