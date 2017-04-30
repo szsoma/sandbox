@@ -203,4 +203,21 @@
   background-color: #93ca0e;
 }
 
-/*   Progress bar 2   */
+/*   GSap Conversific Logo   */
+.conv-logo {
+  height: 20rem;
+  padding-top: 0;
+  margin-top: -20px;
+}
+
+/*   GSap Optimonk iMac   */
+.imac {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/*   Media Querri's   */
+
+@media screen and (min-width: 768px) {
+
+}

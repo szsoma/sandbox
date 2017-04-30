@@ -39,6 +39,8 @@ setProgress = function(currstep){
   var percent = parseFloat(100 / widget.length) * currstep;
   percent = percent.toFixed();
   $(".progress-bar").css("width",percent+"%").html(percent+"%");
+  console.log(currstep);
+
 }
 
 // Hide buttons according to the current step
@@ -59,6 +61,7 @@ var $current=$("#bejelentkezes");
 $(".up").click(function() {
   $current=$current.next();
   $current.addClass("completed");
+  $("#adatok span").css({"background-image":"url('../img/data.svg')", "animation":"flip 300ms ease-in-out;"});
 });
 
 $(".clear").click(function() {
