@@ -17,9 +17,9 @@ var baseScr =  $(".base-scr"),
     $btnSlowMo = $("#btnSlowMo"),
     $btnReverse = $("#btnReverse");
 
-var master = new TimelineMax();
+//var master = new TimelineMax();
 
-function imac() {
+//function imac() {
   //  Creating the Timeline
   var tl = new TimelineMax();
 
@@ -59,9 +59,8 @@ function imac() {
     .to(button2, 0.2, {y: 0, ease:Power4.easeOut})
     .to(thx, 0.3, {yPercent: -150}, "+=0.5")
     .to(black, 0.01, {autoAlpha: 0}), "+=0.04";
-}
 
-master.add(imac());
+//master.add(imac());
 
 tl.add('end');
 
